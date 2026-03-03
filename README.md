@@ -1,2 +1,3 @@
-# row_elementary_matrix_op
-OBE
+# Row Elementary Matrix Operation
+
+Gauss Jordan Method
