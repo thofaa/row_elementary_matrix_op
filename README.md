@@ -1,3 +1,3 @@
 # Row Elementary Matrix Operation
 
-Gauss Jordan Method
+Gauss Jordan Method (unfinished)
