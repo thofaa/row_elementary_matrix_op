@@ -2,10 +2,9 @@ import numpy as np
 import re
 import sys
 
-np.set_printoptions(precision=4, suppress=True)  # cleaner output, no scientific notation
+np.set_printoptions(precision=4, suppress=True)  
 
 def main_algorithm():
-    #----- step 1 -----
     while True:
         try:
             print('')
@@ -13,8 +12,6 @@ def main_algorithm():
             num_system = int(input('How many equations that you have? : ').strip())
 
             if num_system == -1:
-                print('')
-                print('thank you, bye-bye!')
                 sys.exit()
             else:
                 break
@@ -54,8 +51,6 @@ def main_algorithm():
         for el in check_variable:
             if int(el) > max_num_variable:
                 max_num_variable = int(el)
-
-    #----- step 2 -----
 
     into_main_matrix = np.zeros((num_system, max_num_variable + 1))  # +1 for augmented column (right side)
 
